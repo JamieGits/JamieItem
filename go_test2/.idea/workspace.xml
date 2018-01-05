@@ -47,18 +47,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test6.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test6.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test7.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test7.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,13 +95,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test8.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test8.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/test8.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="e#14#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tset9.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tset9.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,6 +209,7 @@
         <option value="$PROJECT_DIR$/src/com/arrPointer.go" />
         <option value="$PROJECT_DIR$/src/com/structTest.go" />
         <option value="$PROJECT_DIR$/src/com/test8.go" />
+        <option value="$PROJECT_DIR$/src/com/tset9.go" />
       </list>
     </option>
   </component>
@@ -224,7 +225,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -244,16 +245,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="go_test2" type="b2602c69:ProjectViewProjectNode" />
               <item name="go_test2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_test2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_test2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go_test2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go_test2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test8.go">
+  <component name="RunManager" selected="Go Build.go build tset9.go">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -329,20 +347,20 @@
       <filePath value="$PROJECT_DIR$/src/com/structTest.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="go build test7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="go_test2" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/com/test7.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="go build test8.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="go_test2" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/src/com/test8.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build tset9.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go_test2" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/com/tset9.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -406,19 +424,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build test7.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build arrPointer.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build structPointer.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build structTest.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build test8.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build arrPointer.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build structPointer.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build structTest.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build test8.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build tset9.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build test8.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build structTest.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build structPointer.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build arrPointer.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build test7.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build tset9.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build test8.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build structTest.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build structPointer.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build arrPointer.go" />
       </list>
     </recent_temporary>
   </component>
@@ -459,11 +477,12 @@
       <workItem from="1514560191035" duration="1000" />
       <workItem from="1514858630580" duration="1447000" />
       <workItem from="1514944661187" duration="1092000" />
+      <workItem from="1515131701666" duration="69000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90652000" />
+    <option name="totallyTimeSpent" value="90721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -475,7 +494,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,11 +505,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39617488" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.33791208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.33791208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25250357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,13 +542,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/example/const.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/example/iota.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -847,9 +859,19 @@
     <entry file="file://$PROJECT_DIR$/src/com/test8.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tset9.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
