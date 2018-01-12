@@ -13,7 +13,7 @@ func rangeObjPrint(array []string) {
 	}
 }
 
-var flag bool
+
 func main()  {
 	fmt.Printf("array6--- type:%T \n", array6)
 	rangeObjPrint(array6)
